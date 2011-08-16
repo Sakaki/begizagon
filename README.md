@@ -14,7 +14,7 @@ This program extracts aligned term pairs from bitext.
 Authors
 -------
 
-Takuya Takeda <>
+Takuya Takeda <t.takeda39@gmail.com>
 
 License
 -------
