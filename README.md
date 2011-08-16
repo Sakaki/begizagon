@@ -30,6 +30,8 @@ Dependencies
 Install
 -------
 
+  gem install begizagon
+
 
 Documents
 ---------
