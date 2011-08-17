@@ -36,6 +36,6 @@ end
 corpus = Groonga["Corpus"]
 Zlib::GzipReader.new(open(SOURCE)).each{|l|
   id, n, e, j = l.split(/\t/,4)
-  corpus.add(id, :eng => e, :jpn => j)
+  corpus.add(id + n.to_s, :eng => e, :jpn => j)
 }
 puts "#{corpus.size} records loaded to database '#{$dbpath}'"
