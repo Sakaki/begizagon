@@ -75,7 +75,8 @@ enumbers.size.times do |i|
   bitexts.size.times do |j|
     bitexts[j]["e"].each do |k|
       if(i == k)
-        include.push(i,k)
+        include[i] ||= []
+        include[i] << j
       end
     end
   end
