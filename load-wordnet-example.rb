@@ -9,7 +9,7 @@ require 'open-uri'
 require 'groonga'
 
 SOURCE = "http://nlpwww.nict.go.jp/wn-ja/data/1.1/wnjpn-exe.tab.gz"
-DEFAULT_DBPATH = "/tmp/wnjpn.db"
+DEFAULT_DBPATH = "corpus.db"
 
 puts <<END
 downloading Wordnet example corpus.
