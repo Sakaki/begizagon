@@ -36,6 +36,8 @@ Install
 Documents
 ---------
 
+  *First, run learner.rb with groonga database named "corpus.db" in your current directory.
+  *then run lookup.rb with string you want to search so that you can find the translation.
 
 
 Mailing list
