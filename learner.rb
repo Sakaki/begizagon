@@ -15,7 +15,7 @@ Groonga::Database.open($dbpath)
 
 #print 'limit :'
 #limit = gets.to_i
-limit = 1000
+limit = 0
 size = Groonga["Corpus"].size
 limit = size if limit == 0
 if(limit > size)
